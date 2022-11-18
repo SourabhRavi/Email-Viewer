@@ -4,6 +4,7 @@ import FetchMails from './components/FetchMails';
 function App() {
   return (
     <>
+      <h1>Mail Viewer</h1>
       <FetchMails />
     </>
   )
