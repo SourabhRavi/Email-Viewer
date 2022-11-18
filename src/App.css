@@ -1,38 +1,155 @@
-.App {
-  text-align: center;
+html {
+  padding: 0;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  padding: 60px;
+  background: #F4F6FA;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p {
+  margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+* {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.filter-wrap {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.filter-label {
+  margin-right: 30px;
+}
+
+.filter-item {
+  margin: 0 10px;
+  padding: 5px 20px;
+  border-radius: 40px;
+}
+
+.filter-selected {
+  background: #E1E5EA;
+  border: 1px solid #D0D2DD;
+}
+
+.mail-item {
+  background: #fff;
+  display: flex;
+  padding: 10px 40px;
+  margin-bottom: 30px;
+  border: 1px solid #cfd2dc;
+  color: #636363;
+  border-radius: 10px;
+  font-weight: 400;
+  justify-content: space-between;
+}
+
+.avatar-wrap {
+  flex-basis: 3%;
+  margin-right: 20px;
+}
+
+.avatar-wrap .avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  background: #E54065;
+  font-size: 25px;
+  border-radius: 50%;
+  font-weight: 500;
+  color: #fff;
+}
+
+.detail-wrap {
+  flex-basis: 95%;
+}
+
+.short-description {
+  margin: 10px 0;
+}
+
+.other-details {
+  display: flex;
+}
+
+.App {
+  display: flex;
+}
+
+.mail-list {
+  flex-basis: 100%;
+}
+
+.mail-body {
+  flex-basis: 60%;
+  margin-left: 30px;
+}
+
+.email-text p {
+  margin-bottom: 15px;
+}
+
+.main-wrap {
+  background: #fff;
+  border: 1px solid #cfd2dc;
+  border-radius: 10px;
+  padding: 40px 60px 40px 40px;
+  display: flex;
+  color: #636363;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header-wrap .heading {
+  font-size: 26px;
+  font-weight: 500;
+  margin-right: 50px;
+}
+
+.favourite-btn {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background: #E54065;
+  padding: 10px;
+  border-radius: 30px;
+  min-width: 150px;
+  height: 30px;
+  color: #fff;
+  border: none;
+  outline: none;
 }
 
-.App-link {
-  color: #61dafb;
+.date-time-wrap {
+  display: flex;
+  font-size: 15px;
+  margin-bottom: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.date-time-wrap .date {
+  margin-right: 15px;
+}
+
+.text-wrap {
+  flex-basis: 97%;
 }
