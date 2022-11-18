@@ -60,8 +60,8 @@ function FetchMails() {
                                         {date.getDay()}/{date.getMonth()}/{date.getFullYear()}
                                     </p>
                                     <p className="time">{date.getHours() > 12 ? date.getHours() - 12 : date.getHours()}:{date.getMinutes()}{date.getHours() > 12 ? 'pm' : 'am'}</p>
+                                    {mail.fav ? <p style={{ marginLeft: '30px', color: '#E54065', fontWeight: '500' }}>Favorite</p> : null}
                                 </div>
-                                {mail.fav ? <p>Favorite</p> : <p>Not Favorite</p>}
                             </div>
                         </div>
                     )
